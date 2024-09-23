@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Sen', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header h1 {
+    margin-left: 25px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin: 0 15px;
+}
+
+header img {
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
